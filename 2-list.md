@@ -235,6 +235,7 @@ Implement the following functions:
 - `dropWhile`
 - `reverse`
 - `filter`
+- `map`
 
 
 
