@@ -230,12 +230,20 @@ Implement the following functions:
 
 - `length`
 - `append`
+    - appends an element at the end of the list
 - `reverse`
 - `takeWhile`
+    - takes elements in the list, until a predicate is true
+    (predicate - Function<A, Boolean>), and returns a list
+    containing those elements
 - `dropWhile`
-- `reverse`
+    - discards elements from the list while the predicate is true,
+    and return a list of the rest of the elements
 - `filter`
+    - returns the sublist of this list, for which the given predicate is true
 - `map`
+    - (List<A>, Function<A,B>) -> List<B>
+    - i.e. apply a function to each element of the list, returning a new list
 
 
 
