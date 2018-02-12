@@ -103,4 +103,4 @@ false otherwise
 - Implement via a fold the function `exists`, which returns true if a predicate is satisfied by any element,
 false otherwise
 - You already know the function `filter`. Implement it via a fold.
-- Implement a function `foldRightC`. It behaves exactly like `foldRight`, but is implemented in terms of `foldLeft`
+- Implement a function `foldRightC`. It behaves like `foldRight`, but is implemented in terms of `foldLeft`
