@@ -148,6 +148,16 @@ if (y.isNone())
 }
 ```
 
+
+- Retrieve the value, if defined
+
+```java
+if (x.isSome())
+{
+    String foo = x.some(); // non-total, throws
+}
+```
+
 - Transform a value, if it is defined
 ```java
 Option<Integer> length = x.map(xx -> xx.length()); 
