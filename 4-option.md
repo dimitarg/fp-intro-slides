@@ -7,6 +7,7 @@
 and `Nil` with `z`
 - every list operation can be expressed as a `foldRight`
 - it is not always a good idea to do so
+- `foldRightC` is not equivalent to `foldRight`, in general
 
 ## Infrastructure
 
