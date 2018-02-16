@@ -19,3 +19,5 @@ instructor presenting the material.
 - [List folds](3-list-fold.md)
 - [Dealing with nullness](4-option.md)
 - [Either data type and dealing with errors](5-either.md)
+- [Strictness vs laziness](6-laziness.md)
+- [Introduction to handling side effects](7-pure-side-effects.md)
