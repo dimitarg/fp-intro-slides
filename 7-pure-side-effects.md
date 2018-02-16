@@ -47,6 +47,9 @@ And a value it is indeed. I can transform it via a function, and get a new value
     P1<Integer> len = val.map(str -> str.length())
 ```
 
+*(A `P1` is a wrapper type around a `F0` which allows me to transform it via `bind` and `map`.
+The corresponding wrapper types for `F1` and `F2` are `F1W` and `F2W`)*
+
 No side effects are performed yet. I can continue these transformations as long as I need:
 
 ```java
