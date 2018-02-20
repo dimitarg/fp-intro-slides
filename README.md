@@ -21,3 +21,4 @@ instructor presenting the material.
 - [Either data type and dealing with errors](5-either.md)
 - [Strictness vs laziness](6-laziness.md)
 - [Introduction to handling side effects](7-pure-side-effects.md)
+- [Working with DB](8-db.md)
