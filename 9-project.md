@@ -5,6 +5,8 @@
 - Implement a service to create a list of user groups
   - User group has an  (auto-generated) id, a name and a description
   - There is a built-in group 'admin' with description 'Administrator Group'
+  - unique constraint on group name
+  - non-null name and description
   
 ## Read all user groups
 
