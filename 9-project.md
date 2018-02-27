@@ -21,7 +21,7 @@ Implement a service which assigns user/s to group/s. The input payload is someth
 ```
 , where the keys are user id's and the values are group id's.
 
-In java this can be represented as a hash array mapped trie of integer to list of integer.
+In java this can be represented as a hash array mapped trie of integer to list of integer. (See `fj.data.hamt.HashArrayMappedTrie`)
 
 This webservice is behaves like a map 'put'. It means that if a user '1' is assigned roles '2,3,4', and they already
 have roles assigned that are not in the list '2,3,4', those roles should first be removed from the user.
